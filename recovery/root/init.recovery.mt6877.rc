@@ -6,8 +6,18 @@ on init
     export LD_LIBRARY_PATH /system/lib64:/vendor/lib64:/vendor/lib64/hw:/system/lib64/hw
     mkdir /mnt/vendor/persist 0771 system system
 
+   mkdir /mnt/media_rw/usbotg 0700 media_rw media_rw
+    mkdir /storage/usbotg 0700 root root
+    write /sys/module/musb_hdrc/parameters/mu3d_force_on 1
+
     write /sys/class/power_supply/usb/otg_switch 1
     write /sys/class/oplus_chg/usb/otg_switch 1
+    
+on fs && property:ro.debuggable=0
+    # distinguish USB shoulde connect or not, i.e. CDP vs SDP
+    write /sys/class/udc/musb-hdrc/device/cmode 1
+    # set charging free due to it wait for USB activation
+    start adbd
 
 on post-fs
     # Support A/B feature for EMMC and UFS boot region
