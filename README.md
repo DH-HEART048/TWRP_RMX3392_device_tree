@@ -21,5 +21,6 @@
 - Storage (Decrypted, if lockscreen is disable.)
 
 #### Notes
-- prebuild kernel 
+- prebuild kernel
+- tested on Android 13 rui4.0 c14/15
 
