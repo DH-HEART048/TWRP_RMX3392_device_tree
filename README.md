@@ -24,7 +24,7 @@
 - prebuild kernel
 - tested on Android 13 rui4.0 c14/15
 
-##### pictures
+##### Pictures
 
 <details><summary>TWRP Pictures ©2023 - Click to open</summary>
 <p>
