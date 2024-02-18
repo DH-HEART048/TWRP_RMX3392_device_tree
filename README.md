@@ -15,6 +15,7 @@
 - Mtp works
 - Flashing .img/zip
 - External Storage (SD and OTG)
+- Reboot to system
 
 ### Bugs
 - Storage (Encrypted, if lockscreen is enable.)
