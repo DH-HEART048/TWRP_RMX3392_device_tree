@@ -24,3 +24,17 @@
 - prebuild kernel
 - tested on Android 13 rui4.0 c14/15
 
+##### pictures
+
+<details><summary>TWRP Pictures ©2023 - Click to open</summary>
+<p>
+
+![Initial Menu](https://github.com/DH-HEART048/TWRP_RMX3392_device_tree/assets/137413988/32ec258c-933f-42e8-94b3-33e59ee8a6e9)
+![Decrypt](https://github.com/DH-HEART048/TWRP_RMX3392_device_tree/assets/137413988/3de7f20d-cec1-458a-be0b-f277135485fa)
+![Backup](https://github.com/DH-HEART048/TWRP_RMX3392_device_tree/assets/137413988/0b2f83ac-48d7-4298-84b9-04c2502adb79)
+</p>
+</details>
+
+
+
+
