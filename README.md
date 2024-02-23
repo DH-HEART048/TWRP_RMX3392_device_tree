@@ -16,6 +16,7 @@
 - Flashing .img/zip
 - External Storage (SD and OTG)
 - Reboot to system
+- Decrypted
 
 ### Bugs
 - Storage (Encrypted, if lockscreen is enable.)
